@@ -50,11 +50,7 @@ int main()
     double c = pow(msg, e);
     c = fmod(c, n);
     cout << "\nEncrypted data = " << c;
-
-    double m = pow(c, d);
-    m = fmod(m, n);
-    cout << "\nOriginal Message Sent = " << m;
-
+      
     return 0;
 }
 
